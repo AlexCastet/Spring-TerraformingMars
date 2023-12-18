@@ -1,10 +1,10 @@
-package Terraformingmars.Services;
+package TerraformingMars.Services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import Terraformingmars.Models.Games;
-import Terraformingmars.Repositories.GamesRepository;
+import TerraformingMars.Models.Games;
+import TerraformingMars.Repositories.GamesRepository;
 
 
 @Service("GamesServices")

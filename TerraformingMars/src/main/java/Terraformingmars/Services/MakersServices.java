@@ -1,4 +1,4 @@
-package Terraformingmars.Services;
+package TerraformingMars.Services;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,9 +6,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import Terraformingmars.Models.Makers;
-import Terraformingmars.Models.TypeMaker;
-import Terraformingmars.Repositories.MakersRepository;
+import TerraformingMars.Models.Makers;
+import TerraformingMars.Models.TypeMaker;
+import TerraformingMars.Repositories.MakersRepository;
 
 @Service("MakersServices")
 public class MakersServices implements IMakersServices{

@@ -1,4 +1,4 @@
-package Terraformingmars.Models;
+package TerraformingMars.Models;
 
 import java.util.HashSet;
 import java.util.Set;

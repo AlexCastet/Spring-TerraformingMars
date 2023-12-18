@@ -1,9 +1,9 @@
-package Terraformingmars.Services;
+package TerraformingMars.Services;
 
-import Terraformingmars.Models.Corporations;
-import Terraformingmars.Models.Player;
+import TerraformingMars.Models.Corporations;
+import TerraformingMars.Models.Player;
 
 public interface IPlayerServices {
-	Player findByIdPlayer(int id);
+	Player findByidPlayer(int id);
 	Player findBycor(Corporations cor);
 }

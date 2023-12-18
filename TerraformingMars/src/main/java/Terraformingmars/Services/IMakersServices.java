@@ -1,9 +1,9 @@
-package Terraformingmars.Services;
+package TerraformingMars.Services;
 
 import java.util.List;
 
-import Terraformingmars.Models.Makers;
-import Terraformingmars.Models.TypeMaker;
+import TerraformingMars.Models.Makers;
+import TerraformingMars.Models.TypeMaker;
 
 public interface IMakersServices {
 	List<Makers> findBytypeMaker(TypeMaker ty);

@@ -1,4 +1,4 @@
-package Terraformingmars.Models;
+package TerraformingMars.Models;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -20,12 +20,12 @@ public class Player {
 
 	@Override
 	public String toString() {
-		return "Players [IdPlayer=" + IdPlayer + ", Name=" + Name + ", Wins=" + Wins + ", cor=" + cor + ", Partides="
+		return "Players [IdPlayer=" + idPlayer + ", Name=" + Name + ", Wins=" + Wins + ", cor=" + cor + ", Partides="
 				+ Partides + ", Guanyades=" + Guanyades + "]";
 	}
 	@Id@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="idPlayer")
-	private int IdPlayer;
+	private int idPlayer;
 	@Column(name = "Name", length = 50, nullable = false)
 	private String Name;
 	@Column(name = "Wins")
@@ -56,10 +56,10 @@ public class Player {
 	}
 
 	public int getIdPlayer() {
-		return IdPlayer;
+		return idPlayer;
 	}
 	public void setIdPlayer(int idPlayer) {
-		IdPlayer = idPlayer;
+		idPlayer = idPlayer;
 	}
 	public String getName() {
 		return Name;

@@ -1,11 +1,11 @@
-package Terraformingmars.Services;
+package TerraformingMars.Services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import Terraformingmars.Models.Corporations;
-import Terraformingmars.Models.Player;
-import Terraformingmars.Repositories.PlayerRepository;
+import TerraformingMars.Models.Corporations;
+import TerraformingMars.Models.Player;
+import TerraformingMars.Repositories.PlayerRepository;
 
 @Service("PlayerService")
 public class PlayerServices implements IPlayerServices{
@@ -14,9 +14,9 @@ public class PlayerServices implements IPlayerServices{
 	PlayerRepository pr;
 	
 	@Override
-	public Player findByIdPlayer(int id) {
+	public Player findByidPlayer(int id) {
 		// TODO Auto-generated method stub
-		return pr.findByIdPlayer(id);
+		return pr.findByidPlayer(id);
 	}
 
 	@Override

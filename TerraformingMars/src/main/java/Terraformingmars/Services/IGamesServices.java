@@ -1,6 +1,6 @@
-package Terraformingmars.Services;
+package TerraformingMars.Services;
 
-import Terraformingmars.Models.Games;
+import TerraformingMars.Models.Games;
 
 public interface IGamesServices {
 	Games findByidGame(int id);
